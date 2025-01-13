@@ -1,27 +1,40 @@
 [Your Name]
 [Your Title/Position]
-[Hospitals/Organizations]
+[Healthcare Provider's Name]
+[Provider's Address]
+[City, State, ZIP]
 [Date]
 
 Claims Department
 HealthFirst Insurance
-1-800-123-4567
+[Insurance Company Address]
+[City, State, ZIP]
 
-Dear Claims Department,
+Dear Claims Representative,
 
-I am writing to appeal the denial of my recent claim for procedure CPT code 99214 (Office/Outpatient Visit) related to a follow-up visit on October 3, 2024. I strongly disagree with the reason for denial and believe that this service is medically necessary based on the patient's clinical presentation.
+Re: Appeal of Health Insurance Claim Denial for Procedure CPT Code 99214 (Office/Outpatient Visit)
 
-As per our review of John Doe's health plan and the clinical documentation provided, the procedure meets the criteria for medical necessity at this time due to his persistent lower back pain, which has been ongoing for six months. The patient's chief complaint and subjective report of pain levels indicate a significant change in his condition, warranting further evaluation and treatment.
+I am writing to appeal the denial of my recent claim for procedure CPT code 99214, Office/Outpatient Visit, submitted on behalf of Mr. John Doe under policy number HIC-987654321. I strongly disagree with the reason for denial and believe that the procedure is medically necessary.
 
-The reason for denial stated that the service is not medically necessary based on the absence of a significant change in the patient's medical condition and lack of documented need for the requested level of care. However, I strongly disagree with this assessment as there has been a notable decrease in pain levels over time, despite continued physical therapy and medication management.
+As per our review of the patient's medical history and clinical documentation, including the visit notes provided, the procedure was deemed Not Medically Necessary based on the absence of a significant change in Mr. Doe's medical condition and lack of documented need for the requested level of care. However, I would like to highlight that Mr. Doe has been experiencing persistent lower back pain for six months, which has significantly impacted his daily activities and quality of life.
 
-I would like to request an appeal review to reconsider the denial based on our hospital's expertise and clinical judgment. Our physician's assessment of John Doe's condition and treatment plan is that his symptoms are consistent with chronic lower back pain due to lumbar strain or mild disc herniation, which requires further evaluation and potential interventions such as imaging studies and epidural steroid injections.
+The patient visit notes clearly outline the nature and severity of Mr. Doe's symptoms, including chronic radicular symptoms in the right leg and limited range of motion, as well as a thorough assessment and plan of care. These findings are consistent with a diagnosis of lumbar strain or mild disc herniation, for which the procedure is intended to provide relief.
 
-I would appreciate the opportunity to discuss this matter further with a reviewer and provide additional information to support my appeal. Please let me know if there is any additional documentation or supporting evidence required to facilitate an appeal review.
+I would like to request that the claim be reinstated and approved for the procedure, considering the severity of Mr. Doe's symptoms and the lack of medical necessity. I have attached the visit notes and supporting documentation to this appeal.
 
-Thank you for considering our request.
+Please find below my professional opinion:
+
+* The procedure is medically necessary to alleviate Mr. Doe's chronic lower back pain and radicular symptoms.
+* The patient's symptoms and medical history demonstrate a significant change in his condition, warranting medical attention for relief.
+* The imaging ordered to rule out disc herniation is reasonable and necessary to provide additional evidence of the claim.
+
+I would appreciate it if you could review this appeal and take into consideration the above points. If there are any additional information or documentation required, please let me know promptly.
+
+Thank you for your time and attention to this matter. I look forward to hearing from you soon.
 
 Sincerely,
 
 [Your Name]
-Physician, [Hospitals/Organizations]
+Provider
+
+cc: Dr. Emily Roberts, Primary Care Provider

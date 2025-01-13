@@ -49,10 +49,7 @@ def generate_appeal_route():
         return jsonify({'error': 'No files part in the request'}), 400
 
     files = request.files.getlist('files')
-    email = request.form.get('email')
-    subject = request.form.get('subject')
-    message = request.form.get('message')
-
+    
     print(files)
 
     saved_files = {}
@@ -93,6 +90,54 @@ def generate_appeal_route():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+
+# Email details
+# subject = "Health Insurance Claim Update"
+# sender = "lisajingd@gmail.com"
+# recipients = ["lisa_duan@brown.edu"]
+password = "ehef paal smnf qgpp"
+
+# sending the email 
+def send_email(subject, body, sender, recipients, password):
+    msg = MIMEText(body)
+    msg['Subject'] = subject
+    msg['From'] = sender
+    msg['To'] = ', '.join(recipients)
+
+    # Connect to the Gmail SMTP server
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
+        smtp_server.login(sender, password)
+        smtp_server.sendmail(sender, recipients, msg.as_string())
+    print("Message sent!")
+
+
+
+    # # Save the appeal letter to a .txt file, this is optional 
+    # def save_appeal_letter(appeal_letter):
+    #     with open('appeal_letter.txt', 'w') as file:
+    #         file.write(appeal_letter)
+    #     print("Appeal Letter generated and saved!")
+    # save_appeal_letter(appeal_letter)
+
+    # schedule sending the email 
+    # schedule_time = "09:54"
+    # schedule.every().day.at(schedule_time).do(send_email, subject, appeal_letter, sender, recipients, password)
+    # print(f"Scheduled email to be sent at {schedule_time}.")
+
+    # while True:
+    #     schedule.run_pending()
+
+@app.route('/email-send', methods=['POST'])
+def send_email_route():
+    sender_email = request.form.get('sender_email')
+    recipient_email = request.form.get('recipient_email')
+    subject = request.form.get('subject')
+    appeal_letter = request.form.get('appeal_letter')
+
+    send_email(subject, appeal_letter, sender_email, recipient_email, password)
+    return jsonify({'message': 'Email sent!'}), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
